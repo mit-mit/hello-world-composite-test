@@ -8,7 +8,6 @@ jobs:
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
     steps:
-    steps:
     - uses: actions/checkout@v2
     - id: foo
       uses: mit-mit/hello-world-composite-run-steps-action@v1
